@@ -6,7 +6,7 @@ export default function MenuItem({ text, subMenus }) {
       <span>{text}</span>
       <div className="absolute top-full right-0 hidden whitespace-nowrap rounded-b-md bg-pink-500 group-hover:block">
         {subMenus &&
-          subMenus.map((subMenus) => {
+          subMenus.map((subMenu) => {
             return (
               <div className="cursor-pointer p-4 font-bold text-pink-200 transition-colors ease-in-out hover:bg-white/5 hover:text-zinc-200">
                 {subMenu}

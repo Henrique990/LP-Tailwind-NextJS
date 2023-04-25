@@ -13,10 +13,10 @@ export default function Navbar() {
                 </div>
 
                 <div className="hidden flex-1 items-center justify-center md:flex">
-                    <MenuItem text={"Home"} subMenus={} />
-                    <MenuItem text={"Lineup"} />
-                    <MenuItem text={"Ticket"} />
-                    <MenuItem text={"Support"} />
+                    <MenuItem text={"Home"} subMenus={['Ticket de 1 dia','Ticket de 7 dias']} />
+                    <MenuItem text={"Lineup"} subMenus={['Ticket de 1 dia','Ticket de 7 dias']} />
+                    <MenuItem text={"Ticket"} subMenus={['Ticket de 1 dia','Ticket de 7 dias']} />
+                    <MenuItem text={"Support"} subMenus={['Ticket de 1 dia','Ticket de 7 dias']} />
                 </div>
             </nav>
         </header>
