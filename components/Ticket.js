@@ -26,6 +26,9 @@ function Ticket() {
                     <td className='border border-zinc-500 px-3 py-2'>8.000 Mzn</td>
                 </tr>
             </tbody>
+            <caption className='my-5 caption-bottom'>
+                Uma vez que eles acabarem, eles acabaram!
+            </caption>
         </table>
     </div>
   )
